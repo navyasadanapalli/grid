@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <style>
+        body{
+            background-color: rgb(224, 217, 217);
+        }
+        #header{
+            background-color: white;
+            width: 100%;
+            height: 100px;
+            line-height: 100px;
+    
+        }
+        #hd1{
+            margin-right: 500px;
+           margin-left:30px;
+           font-size: 25px;
+        
+        }
+        #hd1:hover{
+            background-color: gray;  
+        }
+        #hd2{
+        
+            margin-left: 500px;
+            font-size: 25px;
+            text-decoration: none;
+            color: black;
+
+        }
+        #hd2:hover{
+            background-color: gray; 
+        }
+
+        #img{
+            display: grid;
+            grid-template-columns: auto,auto;
+            grid-template-rows: auto,auto,auto;
+            border: none;
+            
+        }
+
+        #img1{
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        #img3{
+            position: relative;
+            bottom: 70px;
+        }
+
+        #img4{
+            grid-column: 2/3;
+            position: relative;
+            bottom: 10px;
+
+
+        }
+
+        #img5{
+            grid-column: 1/2;
+            position: relative;
+            bottom: 525px; 
+        }
+
+        #about{
+            margin-left: 48%;
+            font-size: 25px;
+
+        }
+
+        .a{
+            
+            position: relative;
+            bottom: 400px;
+
+        }
+        #boy{
+            margin-left: 40%;
+            margin-top: 50px;
+
+        }
+
+        #para{
+            margin-left: 200px;
+            margin-right: 200px;
+            margin-top: 50px;
+            font-size: 20px;
+
+        }
+
+        #para1{
+            margin-left: 500px;
+            font-size: 20px;
+            color: red;
+        }
+        .name{
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+
+        #input{
+            position: relative;
+            bottom: 300px;
+        }
+        .center{
+            text-align: center;
+            margin-top: 20px;
+        }
+        #send{
+            position: relative;
+            top: 44px;
+            margin-left: 200px;
+            margin-right: 192px;
+            height: 42px;
+            line-height: 40px;
+            background-color: grey;
+        }
+        #send1{
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+        #send:hover{
+            background-color: rgb(212, 208, 208);
+        }
+
+    </style>
+</head>
+<body>
+        <div id="header">
+            <a id="hd1">MY ART</a>
+            <a href="#about" id="hd2">ABOUT</a>
+    </div>
+    
+
+    <div id="img">
+        <div id="img1"><img src="./streetart.jpg" width="100%"></div>
+        <div id="img2"><img src="./streetart2.jpg" width="100%"></div>
+        <div id="img3"><img src="./streetart3.jpg" width="100%"></div>
+        <div id="img4"><img src="./streetart4.jpg" width="100%"></div>
+        <div id="img5"><img src="./streetart5.jpg" width="100%"></div>
+    </div>
+
+    <div class="a">
+        <div id="about">ABOUT</div>
+    <div id="boy"><img src="./boy.jpg" alt="" width="300px"></div>
+ <p id="para">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+ <p id="para1">Do not hesitate to contact me!</p>
+</div>
+
+
+<div id="input">
+    <div class="center">
+        <label for="name">Name</label><br></div>
+    <div class="name">
+        <input type="text" placeholder="" style="width: 100%; height: 40px;">
+    </div>
+    <div class="center">
+        <label for="Emil">Email</label><br>
+        <div class="name"><input type="text" placeholder="" style="width: 100%; height: 40px;"></div>
+    </div>
+    <div class="center">
+        <label for="Message">Message</label><br>
+        <div class="name"><input type="text" placeholder="" style="width: 100%; height: 40px;"></div>
+
+        <div id="send">
+        <label for="Send">Send</label></div>
+        <div id="send1"><input type="text" placeholder="" style="width: 100%; height: 40px;">
+       
+    </div>
+
+</div>
+
+</body>
+</html>
